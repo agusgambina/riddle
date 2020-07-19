@@ -1,0 +1,20 @@
+{
+  "name": "riddle",
+  "version": "1.0.0",
+  "description": "A riddle game",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "env NODE_ENV=test mocha --exit --reporter nyan"
+  },
+  "author": "Agustin Gambina Pirillo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  }
+}
